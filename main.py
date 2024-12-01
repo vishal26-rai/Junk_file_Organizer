@@ -65,7 +65,7 @@ class File_Organizer:
         # ==================Buttons===============
         self.login_button = Button(self.frame2, text="Choose folder",
                                    command=self.Open_Folder, font=("times new roman", 15, "bold"), bd=0, cursor="hand2",
-                                   bg="white", fg="blue").place(x=280, y=230, width=150)
+                                   bg="black", fg="white").place(x=280, y=230, width=150)
 
         self.sumbit = Button(self.frame2, text="Submit", command=self.action,
                              font=("times new roman", 15, "bold"), bd=0, cursor="hand2", bg="blue",
